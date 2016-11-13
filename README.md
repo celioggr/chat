@@ -104,4 +104,4 @@ Commands have the format `/comand`, sometimes with additional arguments separate
 ##Authors
 
 * Célio Rodrigues celioggr@gmail.com @github/celioggr
-* Iúri Pena
+* Iúri Pena @github/iuritpena
