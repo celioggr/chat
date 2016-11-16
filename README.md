@@ -2,7 +2,9 @@
 A simple yet functional chat written in Java
 
 ##Abstract
+Project carried out in late 2015 under the class of Communication Networks with guidance from our professor Rui Prior.
 
+The main purpose was understanding the baseline development of a communication network over TCP.
 
 ##Table of Contents
 
