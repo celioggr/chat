@@ -1,12 +1,12 @@
-### Chat
+# Chat
 A simple yet functional chat written in Java
 
-# Abstract
+## Abstract
 Project carried out in late 2015 under the class of Communication Networks with guidance from our professor Rui Prior.
 
 The main purpose was understanding the baseline development of a communication network over TCP.
 
-# Table of Contents
+## Table of Contents
 
 1. [Compiling]()
 
@@ -18,7 +18,7 @@ The main purpose was understanding the baseline development of a communication n
 
 
 
-# Compiling
+## Compiling
 
  To compile the files just type the following command:
  
@@ -26,7 +26,7 @@ The main purpose was understanding the baseline development of a communication n
 
 
 
-# Command line
+## Command line
 
 - The server is implemented in a class named ChatServer and accept as command line argument the TCP port number where it will be listening, for example:
 `java ChatServer 8000`
@@ -35,7 +35,7 @@ The main purpose was understanding the baseline development of a communication n
 `java ChatClient localhost 8000`
 
 
-# Protocol
+## Protocol
 
 The communication protocol is text-line-oriented, i.e., each message sent by the client to the server or by the server to the client must end with a newline, and messages themselves cannot contain newlines.
 Messages sent by the client to the server may be commands of simple messages.
@@ -103,7 +103,7 @@ Commands have the format `/comand`, sometimes with additional arguments separate
 
       The user is inside a chat room, and can send simple messages (to that room) and should receive all messages sent by the other users in that room.
 
-# Authors
+## Authors
 
 * Célio Rodrigues celioggr@gmail.com @github/celioggr
 * Iúri Tavares Pena @github/iuritpena
